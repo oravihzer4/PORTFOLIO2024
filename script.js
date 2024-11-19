@@ -20,7 +20,7 @@ function greetFn() {
   greeting(name)`;
   }, 3000);
   setTimeout(() => {
-    alert(`Welcome ${userNameInput.value}, So happy to see you :)`);
+    alert(`Welcome ${userNameInput.value}, So happy to see you here:)`);
     document.getElementById("resultSpan").innerHTML = "";
   }, 4000);
 }
