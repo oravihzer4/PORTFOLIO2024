@@ -57,3 +57,6 @@ img {
 img:hover {
   opacity: 0.6;
 }
+h1 {
+  font-family: monospace;
+}

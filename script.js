@@ -21,6 +21,7 @@ function greetFn() {
   }, 3000);
   setTimeout(() => {
     alert(`Welcome ${userNameInput.value}, So happy to see you here:)`);
+    userNameInput.value = "";
     document.getElementById("resultSpan").innerHTML = "";
   }, 4000);
 }
